@@ -164,6 +164,646 @@ font-size: 20px;
     cursor: pointer;
 }
 
+/* SECOND SECTION STYLING */
+
+.header{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    margin-top: 545px;
+    background-color: #f7f7ff;
+    padding-bottom: 20px;
+}
+
+.card{
+    width: 320px;
+    height: 200px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.card-1{
+    background: url(./sport.jpg);
+    background-position: center;
+    transition: 0.5s;
+}
+
+
+.card-2{
+    background: url(./first1-removebg-preview.png);
+    background-position: top;
+    background-color: #ccc;
+}
+
+
+.card-3{
+    background: url(./jor-removebg-preview.png);
+    background-position: top;
+    background-color: #ccc;
+}
+
+
+.card-4{
+    background: url(./mens-removebg-preview.png);
+    background-position: center;
+}
+
+.card p{
+   text-align: center;
+   padding-top: 80px;
+   font-weight: bold;
+   font-family: sans-serif;
+   font-size: 20px;
+   text-transform: capitalize;
+   color: #fff;
+   visibility: hidden;
+}
+
+.card-1 :hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./sport.jpg);
+    background-position: center;
+}
+
+.card p:hover{
+    visibility: visible;
+}
+
+
+
+.header2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.header2 p{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(65, 55, 55);
+}
+
+.header2 h1{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.header3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+.card2{
+    width: 310px;
+    margin: 10px;
+    border-bottom: 1px solid rgb(202, 201, 201);
+
+}
+
+/*   CARD TWO STYLING     */
+.card-image1{
+
+    height: 310px;
+    margin-bottom: 15px;
+    background: url(./nik-removebg-preview.png);
+    background-position: top;
+    background-color: #f7f7ff;
+    font-family: sans-serif;
+    transition: .5s;
+    cursor: pointer;
+}
+.card-image1:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./nik-removebg-preview.png);
+}
+
+.card-image2{
+
+    height: 310px;
+    margin-bottom: 15px;
+    background: url(./watch-removebg-preview.png);
+    background-position: top;
+    background-color: #f7f7ff;
+    font-family: sans-serif;
+    transition: .5s;
+    cursor: pointer;
+}
+.card-image2:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./watch-removebg-preview.png);
+    background-position: bottom;
+}
+
+.card-image3{
+
+    height: 310px;
+    margin-bottom: 15px;
+    background: url(./cam-removebg-preview.png);
+    background-position: center;
+    background-color: #f7f7ff;
+    font-family: sans-serif;
+    transition: .5s;
+    cursor: pointer;
+}
+.card-image3:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./cam-removebg-preview.png); 
+}
+
+.card-image4{
+
+    height: 310px;
+    margin-bottom: 15px;
+    background: url(./bag-removebg-preview.png);
+    background-position: top;
+    background-color: #f7f7ff;
+    font-family: sans-serif;
+    transition: .5s;
+    cursor: pointer;
+}
+.card-image4:hover{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./bag-removebg-preview.png);
+    background-position: bottom;
+}
+
+
+
+.card-one p{
+  color: grey;
+  font-size: 15px;
+  
+}
+
+.card-one h2{
+    font-size: 18px;
+    margin-top: 9px;
+}
+
+.card-one h5{
+    margin-top: 9px;
+}
+
+
+.card-two p{
+    color: grey;
+    font-size: 15px;
+  }
+  
+  .card-two h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-two h5{
+      margin-top: 9px;
+  }
+
+
+.card-three p{
+    color: grey;
+    font-size: 15px;
+  }
+  
+  .card-three h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-three h5{
+      margin-top: 9px;
+  }
+
+  
+.card-four p{
+    color: grey;
+    font-size: 15px;
+  }
+  
+  .card-four h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-four h5{
+      margin-top: 9px;
+  }
+
+ .header4{
+     width: 100%;
+     height: 70vh;
+     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(./white.webp);
+     background-size: cover;
+     background-attachment: fixed;
+     margin-top: 50px;
+     text-align: center;
+     opacity: 0.9;
+ }
+
+ .header4 h1{
+     color: #fff;
+     padding-top: 100px;
+     font-family:  Verdana, sans-serif;
+     text-transform:capitalize;
+     font-size: 50px;
+ }
+
+.header4 p{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.btn1{
+   margin-top: 60px;
+
+}
+
+.btn1 a {
+ margin-left: 10px;
+ text-decoration: none;
+ border: 2px solid grey;
+ color: #fff;
+ padding: 15px 30px;
+ text-transform: uppercase;
+ font-size: 13px;
+ font-weight: bold;
+ transition: 0.5s;
+}
+
+.btn1 .more{
+    background: rgb(33, 187, 187);
+    border: none;
+    transition: 0.5s;
+}
+
+.btn1 a:hover{
+    background: rgb(33, 187, 187);
+    border: 2px solid  rgb(33, 187, 187);
+}
+
+.btn1 .more:hover{
+    background: rgb(14, 12, 12);
+    border: 2px solid rgb(14, 12, 12);
+}
+
+
+
+.header5{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.header5 p{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(65, 55, 55);
+}
+
+.header5 h1{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 35x;
+}
+
+.header6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card3{
+    width: 310px;
+    height: 410px;
+    background: #fff;
+    margin: 10px;
+    border-bottom: 1px solid rgb(221, 214, 214);
+}
+/*    CARD3 IMAGE STYLING*/
+.card-image5{
+    background : url(./totebag-removebg-preview.png);
+    height: 300px;
+    background-position: center;
+    background-color: #f7f7ff;
+}
+
+.card-image6{
+    background : url(./snik-removebg-preview.png);
+    height: 300px;
+    background-position: bottom;
+    background-color: #f7f7ff;
+}
+.card-image7{
+    background : url(./blbag-removebg-preview.png);
+    height: 300px;
+    background-position: center;
+    background-color: #f7f7ff;
+}
+
+.card-image8{
+    background : url(./dress-removebg-preview.png);
+    height: 300px;
+    background-position: center;
+    background-color: #f7f7ff;
+}
+.card-image9{
+    background : url(./mensshirt-removebg-preview.png);
+    height: 300px;
+    background-position: top;
+    background-color: #f7f7ff;
+}
+
+.card-image10{
+    background : url(./ladshoe-removebg-preview.png);
+    height: 300px;
+    background-position: left;
+    background-color: #f7f7ff;
+}
+
+.card-image11{
+    background : url(./hoodie-removebg-preview.png);
+    height: 300px;
+    background-position: top;
+    background-color: #f7f7ff;
+}
+
+.card-image12{
+    background : url(./face-removebg-preview.png);
+    height: 300px;
+    background-position: center;
+    background-color: #f7f7ff;
+}
+
+
+/*   CARD TEXT STYLING   */
+
+.card-5 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .card-5 h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-5 h5{
+      margin-top: 9px;
+  }
+
+  .card-6 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .card-6 h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-6 h5{
+      margin-top: 9px;
+  }
+
+  .card-7 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .card-7 h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-7 h5{
+      margin-top: 9px;
+  }
+
+  .card-8 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .card-8 h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-8 h5{
+      margin-top: 9px;
+  }
+
+  .card-9 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .card-9 h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-9 h5{
+      margin-top: 9px;
+  }
+
+  .card-10 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .card-10 h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-10 h5{
+      margin-top: 9px;
+  }
+
+  .card-11 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .card-11 h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-11 h5{
+      margin-top: 9px;
+  }
+
+  .card-12 p{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .card-12 h2{
+      font-size: 18px;
+      margin-top: 9px;
+  }
+  
+  .card-12 h5{
+      margin-top: 9px;
+  }
+
+  .header7{
+      display: flex;
+      margin-top: 60px;
+      width: 100%;
+      height: 25vh;
+      background:linear-gradient(rgba(41, 182, 218, 0.521),rgba(5, 164, 226, 0.5)) ,url(./white.webp) right/cover;
+      justify-content: space-between;
+  }
+
+  .header7 h1{
+      margin-top: 60px;
+      margin-left: 100px;
+      color: #fff;
+      text-transform: capitalize;
+      font-family: sans-serif;
+  }
+
+.header7 a{
+    margin-top: 60px;
+    margin-right: 50px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.header8{
+   margin-top: 70px;
+    text-align: center;
+}
+
+.header8 p{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(65, 55, 55);
+}
+
+.header8 h1{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 35x;
+}
+
+.header9{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.card4{
+    width: 350px;
+    height: 455px;
+    background: #fff;
+    margin: 10px;
+    border-bottom: 1px solid rgb(204, 199, 199);
+}
+
+
+.card-image13{
+    background : url(./iphone.jpg);
+    height: 300px;
+    background-position: top;
+    background-color: #f7f7ff;
+}
+
+.card-image14{
+    background : url(./coffee.jpg);
+    height: 300px;
+    background-position: top;
+    background-color: #f7f7ff;
+}
+.card-image15{
+    background : url(./nik.jpeg);
+    height: 300px;
+    background-position: center;
+    background-color: #f7f7ff;
+}
+
+
+
+.card4 h3{
+    margin-top: 15px;
+   
+}
+
+.card4 h5{
+    margin-top: 10px;
+    color: rgb(14, 160, 185);
+    
+}
+
+.card4 p{
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.card4 h6{
+    margin-top: 10px;
+    font-size: 15px;
+} 
+/*    FOOTER STYLING   */
+.header10{
+    background: #000;
+    color: #fff;
+}
+
+.header11{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+.footer1 h1{
+    font-family: 'Lobster Two', cursive;
+} 
+.footer1 p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.footer2 h4{
+    padding-bottom: 10px;
+}
+
+.footer2 p{
+    margin-top: 23px;
+    font-size: 15px;
+}
+
+
+.footer3 h4{
+padding-bottom: 10px;
+}
+
+.footer3 p{
+    margin-top: 23px;
+    font-size: 15px;
+}
 
 
 
@@ -177,14 +817,23 @@ font-size: 20px;
 
 
 
+@media (max-width:1079px){
+   
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+}
 
 
 
 
 
 
-
-
+/*   MEDIA QUARIES   */
 
 @media (max-width:950px){
 
@@ -238,15 +887,19 @@ font-size: 20px;
  }
 
    
-@media (max-width:750px){
+@media (max-width:760px){
 
     .logo-sec h1{
      display: flex;
     color: #000;
-    transform: translateX(280px);
+    transform: translateX(230px);
     
  }
  
+ .footer3{
+     margin-top: 40px;
+ }
+
  }
 
    
@@ -255,7 +908,7 @@ font-size: 20px;
     .logo-sec h1{
      display: flex;
     color: #000;
-    transform: translateX(260px);
+    transform: translateX(210px);
     
  }
  
@@ -268,7 +921,7 @@ font-size: 20px;
     .logo-sec h1{
      display: flex;
     color: #000;
-    transform: translateX(240px);
+    transform: translateX(190px);
     
  }
  
@@ -280,7 +933,7 @@ font-size: 20px;
     .logo-sec h1{
      display: flex;
     color: #000;
-    transform: translateX(220px);
+    transform: translateX(170px);
     
  }
  
@@ -293,7 +946,7 @@ font-size: 20px;
     .logo-sec h1{
      display: flex;
     color: #000;
-    transform: translateX(200px);
+    transform: translateX(150px);
     
  }
  
@@ -305,7 +958,7 @@ font-size: 20px;
     .logo-sec h1{
      display: flex;
     color: #000;
-    transform: translateX(180px);
+    transform: translateX(130px);
     
  }
  
@@ -316,10 +969,13 @@ font-size: 20px;
     .logo-sec h1{
      display: flex;
     color: #000;
-    transform: translateX(160px);
+    transform: translateX(110px);
     
  }
  
+    .footer1 p{
+        width: 300px;
+    }
  }
 
  @media (max-width:550px){
@@ -327,7 +983,7 @@ font-size: 20px;
     .logo-sec h1{
      display: flex;
     color: #000;
-    transform: translateX(140px);
+    transform: translateX(90px);
     
  }
  
@@ -343,6 +999,18 @@ font-size: 20px;
     
  }
  
+ }
+
+ @media(max-width:547px){
+     .footer2{
+         margin-top: 40px;
+     }
+ }
+
+ @media(max-width:506px){
+     .footer2{
+         margin-top: 30px;
+     }
  }
 
  @media (max-width:500px){
@@ -365,6 +1033,25 @@ font-size: 20px;
     
  }
  
+ }
+
+ @media(max-width:468px){
+   
+.body1 button {
+    margin-top: 30px;
+    padding: 20px 45px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ .body1 button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; 
+     
+}
  }
 
  @media (max-width:440px){
